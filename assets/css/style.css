@@ -1,0 +1,815 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700');
+@import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  min-height: calc(100vh - 220px);
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.menu_outer {
+	background: #78AE24;
+	height: 51px;
+	width: 100%;
+	border-bottom: 5px solid #CFE49F;
+	position: fixed;
+	z-index: 1;
+}
+
+.menu {
+	height: 51px;
+	overflow: hidden;
+	margin: 0;
+	text-align: center;
+}
+
+.menu ul {
+	overflow: hidden;
+	padding-left: 0;
+	margin-top: 12px;
+}
+
+.menu ul li {
+	display: inline-block;
+	padding-right: 34px;
+	vertical-align:middle;
+}
+
+.menu ul li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.container {
+	width: 942px;
+	margin: 0 auto;
+}
+
+.header {
+	background: #71417B;
+	height: 110px;
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.logo {
+	float: left;
+	width: 240px;
+}
+
+.logo p {
+	text-align: center;
+	margin: 5px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 11.5px;
+}
+
+.logo img {
+	height: 50px;
+	width: 240px;
+}
+
+.phone_button {
+	float: left;
+	width: 53px;
+	height: 53px;
+	background: #5F3273;
+	border: 3px solid white;
+	border-radius: 15px;
+	margin-top: 10px;
+	margin-left: 40px;
+	margin-right: 42px;
+	color: white;
+	background: linear-gradient(#AA68A6, #57376C);
+	cursor: pointer;
+}
+
+.nums {
+	width: 210px;
+	height: 53px;
+	float: left;
+	color: white;
+	font-size: 27px;
+	margin-top: 10px;
+	margin-right: 45px;
+}
+
+.sot {
+	float: left;
+}
+
+.dom {
+	float: right;
+}
+
+.call_button {
+	width: 281px;
+	height: 38px;
+	border: 3px solid black; 
+	float: left;
+	border-radius: 15px;
+	color: white;
+	font-size: 21px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 16px;
+	text-align: center;
+	background: linear-gradient(#BB94D7, #70407C);
+	cursor: pointer;
+}
+
+.call_button:hover {
+	background: #9B70AF;
+}
+
+.intro {
+	height: 788px;
+	background-size: cover;
+	border-top: 3px solid white;
+	border-bottom: 3px solid white;
+}
+
+.intro_header h1 {
+	height: 163px;
+	width: 747px;
+	background: rgb(252,252,252, 0.6);
+	font-size: 50px;
+	padding-left: 22px;
+	font-weight: 500;
+	margin-bottom: 31px;
+	padding-bottom: 18px;
+	padding-top: 18px;
+}
+
+.intro_border h2 {
+	width: 492px;
+	background: rgb(252,252,252, 0.6);
+	font-size: 30px;
+	padding-left: 22px;
+	font-weight: 300;
+	padding-bottom: 18px;
+	padding-top: 18px;
+	margin-top: 0px;
+}
+
+.intro_border #id1 {
+	height: 207;
+}
+
+.intro_border #id2 {
+	height: 59px;
+}
+
+.intro_border_left {
+	float: left;
+}
+
+.intro_border_right {
+	float: right;
+}
+
+.intro_border_form {
+	width: 347px;
+	height: 312px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-weight: 500;
+	padding-top: 53px;
+	padding-left: 53px;
+	border-radius: 2.5%;
+	font-size: 18px;
+}
+
+.intro_form_input_num {
+	height: 48px;
+	width: 300px;
+	background: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 3%;
+	border: none;
+}
+
+.intro_form_send_button {
+	border-radius: 3%;
+	height: 58px;
+	width: 300px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	color: white;
+	background: linear-gradient(#FD8401, #FC6305);
+	border: none;
+	cursor: pointer;
+	box-shadow: 0px 5px 0px 0px #CD6509;
+}
+
+.intro_form_send_button:hover {
+  background: #FD8001;
+}
+
+.notice {
+	font-size: 14px;
+}
+
+.structures {
+	width: 100%;
+	height: 910px;
+	background: url(../img/artworks.jpg);
+}
+
+.imglist img {
+	width: 33%;
+	height: 190px;
+}
+
+.structures h2 {
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 80px;
+	text-transform: uppercase;
+	font-size: 35px;
+	font-weight: 400;
+	margin-bottom: 40px;
+
+}
+
+.structures_post {
+	height: 140px;
+	background: #70407C;
+	color: white;
+}
+
+.structures_post_left {
+	float: left;
+	margin-top: 42px;
+}
+
+.structures_post_right {
+	float: right;
+	margin-top: 32px;
+}
+
+.structures_post_left h2, .structures_post_left h3 {
+	margin: 0;
+	font-weight: 400;
+}
+
+.structures_post_left h2 {
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+.structures_post_left h3 {
+	font-size: 24px;
+}
+
+.contacts {
+	height: 1030px;
+	width: 100%;
+}
+
+.contacts h2 {
+	text-align: center; 
+	margin-top: 80px;
+	font-weight: 400;
+	text-transform: uppercase;
+	font-size: 36px;
+	margin-bottom: 95px;
+}
+
+.contacts h3 {
+	margin-top: 30px;
+	font-size: 25px;
+	text-transform: none;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+}
+
+.contacts h4 {
+	margin-top: 33px;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.contacts_cards {
+	margin-bottom: 50px;
+	display: inline-block;
+	width: 100%;
+}
+
+.card {
+	width: 33%;
+	text-align: center;
+	float: left;
+}
+
+.card i {
+	color: #705274;
+	border-bottom: 1px solid #C2CFAD;
+	padding-bottom: 30px;
+}
+
+.card h1 {
+	margin-top: 30px;
+	font-size: 25px;
+	text-transform: none;
+	margin-bottom: 0;
+}
+
+.card h2 {
+	margin-top: 33px;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.yamap {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #CDD1D0;
+}
+
+.footer {
+	height: 220px;
+	width: 100%;
+	background: #70407C;
+	padding-top: 30px;
+	color: white;
+}
+
+.footer_left {
+	float: left;
+}
+
+.footer_center {
+	float: left;
+	margin-left: 43px;
+	padding-top: 10px;
+	font-size: 27px;
+	font-weight: 400;
+}
+
+.footer .nums {
+	float: right;
+}
+
+.footer_up {
+	height: 77px;
+}
+
+.footer_down .call_button {
+	margin-left: 280px;
+	height: 44px;
+}
+
+.footer_down .call_button:hover {
+	background: #FD8101;
+}
+
+.footer_down_right {
+	float: right;
+	margin-top: 25px;
+}
+
+.footer_down_right img {
+	float: right;
+	margin-left: 10px;
+}
+
+.footer .call_button {
+	background: linear-gradient(#FD8401, #FC6305);
+	border: 3px solid #461552;
+}
+
+.advantages {
+	width: 100%;
+	height: 470px;
+	border-top: 3px solid #B8B8B8;
+	border-bottom: 3px solid #B8B8B8;
+}
+
+.advantages h2 {
+	font-size: 35px;
+	text-align: center;
+	font-weight: 400;
+	margin-top: 39px;
+	margin-bottom: 65px;
+}
+
+.advantages_cards {
+	width: 100%;
+}
+
+.advantage {
+	width: 20%;
+	text-align: center;
+	color: #3d3d3d;
+	float: left;
+}
+
+.arrow{
+	width:100px;
+	height: 100px;
+	position:relative;
+	display: table;
+	border-radius:50%;
+	background-image: radial-gradient(circle at top, transparent 0, transparent 77%, #7AB926 80%);
+	text-align: center;
+	margin: 0 auto;
+}
+
+.arrow:before{
+	position: absolute;
+	content:"";
+	bottom:-10px;
+	left: 20px;
+	border-top: 20px solid #7AB926;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+}
+
+.advantage h2 {
+	font-size: 15px;
+	margin-top: 20px;
+}
+
+.advantage_down {
+	margin-top: 110px;
+}
+
+.steps {
+	height: 1187px;
+	border-bottom: 3px solid gray;
+	background: url(../img/artworks.jpg);
+}
+
+#step1 {
+	margin-left: 250px
+}
+
+#step2 {
+	margin-top: -100px;
+}
+
+#step3 {
+	margin-left: 250px; 
+	margin-top: -50px;
+}
+
+#step4 {
+	margin-left: 500px; 
+	margin-top: -450px
+}
+
+#step5 {
+	margin-left: 750px;
+}
+
+#step6 {
+	margin-left: 500px;
+}
+
+#step7 {
+	margin-left: 250px; 
+	margin-top: -30px
+}
+
+.steps h2 {
+	text-align: center;
+	padding-top: 80px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 34px;
+	padding-bottom: 75px;
+}
+
+.step_inner {
+	height: 130px;
+	width: 130px;
+	background: #70407C;
+	border-radius: 50%;
+	position: relative;
+	margin-left: 22.5px;
+}
+
+.step_num {
+	width: 50px;
+	height: 24px;
+	border: 2px solid white;
+	background: #80BA27;
+	position: absolute;
+	border-radius: 15%;
+	text-align: center;
+	color: white;
+	padding-top: 6px;
+	font-weight: bold;
+	bottom: -10px;
+	left: 30%;
+}
+
+.step_inner img {
+	margin: 0 auto;
+	display: block;
+	padding-top: 27%;
+	max-width: 65px;
+	max-height: 65px;
+}
+
+.step_info {
+	text-align: center;
+	width: 175px;
+	padding-top: 20px;
+	color: #3d3d3d;
+	font-size: 16px;
+}
+
+.step_outer {
+	width: 175px;
+}
+
+.line {
+	position: absolute;
+	z-index: 0;
+}
+
+.step, .step_outer {
+	z-index: 100;
+	position: relative;
+	display: inline-block;
+}
+
+.step {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.intro_form_send_button:active, .call_button:active, .phone_button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+
+
+/* Медиа запросы */
+
+@media screen and (max-width: 1260px) {
+	.yamap {
+		width: 942px;
+	}
+}
+
+@media screen and (max-width: 965px) {
+
+	.menu, .menu_outer {
+		height: 80px;
+	}
+
+	.header {
+		padding-top: 110px;
+	}
+
+	.container, .yamap {
+		width: 650px;
+	}
+
+	.nums, .phone_button {
+		display: none;
+	}
+
+	.calls {
+		float: right;
+	}
+
+	.intro_border_left, .intro_border_right, .structures_post_left, .structures_post_right {
+		float: none;
+	}
+
+	.intro_header h1 {
+		width: 650px;
+		font-size: 42px; 
+		text-align: center;
+	}
+
+	.intro_border_left h2 {
+		width: 650px;
+		text-align: center;
+	}
+
+	.intro_border #id1, .intro_border #id2, .intro_border_form {
+		margin: 31px auto;
+	}
+
+	.intro {
+		height: 1100px;
+	}
+
+	.advantages #label {
+		font-size: 26px;
+	}
+
+
+	.advantages_cards {
+		display: block;
+		width: 665px;
+	} 
+
+	.advantage h2 {
+		font-size: 14px;
+	}
+
+	.advantages {
+		height: 530px;
+	}
+
+	.structures h2 {
+		font-size: 23px;
+	}
+
+	.imglist img {
+		width: 49%;
+		height: 195px;
+	}
+
+	.imglist {
+		width: 600px;
+		margin: 0 auto;
+	}
+
+	.structures {
+		height: 1250px;
+	}
+
+	.structures_post {
+		height: 250px;
+		text-align: center;
+	}
+
+	.structures_post_left {
+		padding-top: 42px;
+		margin-top: 0px;
+	}
+
+	.structures_post_right {
+		display: inline-block;
+	}
+
+	#step1, #step2, #step3, #step4, #step5, #step6, #step7 {
+		width: 49%;
+		float: left;
+		margin: 0 auto;
+		height: 300px;
+	}
+
+	.step_outer, .step_info {
+		margin: 0 auto;
+	}
+
+	.line img {
+		display: none;
+	}
+
+	.steps {
+		height: 1400px;
+	}
+
+	.steps h2 {
+		font-size: 23px;
+	}
+
+	.footer_down_right {
+		padding-right: 30px;
+		margin-top: 15px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.container, .yamap, .intro_header h1, .intro_border_left h2 {
+		width: 480px;
+	}
+
+	.logo {
+		margin: 0 auto;
+	}
+
+	.calls, .logo, .call_button {
+		float: none;
+	}
+
+	.call_button {
+		margin: 16px auto;
+	}
+
+	.header {
+		height: 180px;
+	}
+
+	.intro_header h1 {
+		font-size: 38px;
+	}
+
+	.advantages_cards {
+		width: 100%;
+	}
+
+	.advantage_down {
+		margin-top: 0;
+	}
+
+	.advantage {
+		width: 100%;
+	}
+
+	.advantages {
+		height: 1300px;
+	}
+
+	.structures h2 {
+		font-size: 22px;
+	}
+
+	.imglist img {
+		width: 100%;
+		height: 195px;
+	}
+
+	.imglist {
+		width: 400px;
+		margin: 0 auto;
+	}
+
+	.structures {
+		height: 2050px;
+	}
+
+	.structures_post_left h2 {
+		font-size: 26px;
+	}
+
+	.structures_post_left h3 {
+		font-size: 20px;
+	}
+
+	.structures_post {
+		height: 230px;
+	}
+
+	.steps h2 {
+		font-size: 21px;
+	}
+
+	#step1, #step2, #step3, #step4, #step5, #step6, #step7 {
+		width: 100%;
+	}
+
+	.steps {
+		height: 2250px;
+	}
+
+	.card {
+		width: 100%;
+		float: left;
+		margin-bottom: 50px;
+	}
+
+	.contacts {
+		height: 1600px;
+	}
+
+	.logo {
+		margin: 0 auto;
+	}
+
+	.footer_left, .footer_right, .logo, .footer_center, .footer_down_right {
+		float: none;
+	}
+
+	.footer_center {
+		text-align: center;
+		margin: 0;
+	}
+
+	.footer_down .call_button {
+		margin: 100px auto;
+		margin-bottom: 0px;
+	}
+
+	.footer {
+		height: 330px;
+	}
+
+}
